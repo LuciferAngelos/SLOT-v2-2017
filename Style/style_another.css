@@ -1,0 +1,354 @@
+.par{
+	margin: 0;
+	font-family: "Times New Roman";
+	font-size: 26px;
+	padding: 10px;
+	text-align: justify;
+	text-indent: 1em;
+}
+.par_sostav{
+	margin: 0;
+	font-family: "Times New Roman";
+	font-size: 26px;
+	padding: 40px;
+	text-align: center;
+	text-indent: 1em;
+}
+.par_afisha{
+	margin: 0;
+	font-family: "Times New Roman";
+	font-size: 26px;
+	padding: 20px;
+	text-align: justify;
+	text-indent: 1em;
+}
+.par_afisha span{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	text-indent: 1em;
+	padding-right: 20px;
+}
+.in-content-head{
+	margin-bottom: 15px;
+	font-weight: bold;	
+	text-transform: uppercase;
+	font-family: 'Rubik One', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+}
+.in-content-disco{
+	padding: 0;
+	width: 100%;
+}
+.disco-alb{
+	padding: 0;
+	width: 25%;
+	margin: 0;
+}
+.disco-alb img{
+	width: 15%;
+	margin: 0 60px 10px 150px;
+}
+.data:before{
+	content: "Дата концерта:" ;
+	color: #06EDE5;
+	margin-right: 10px;
+}
+.disco-slot-list{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	min-height: 430px;
+}
+.disco-slot-list img{
+	float: left;
+	width: 20%;
+	margin: 0;
+	padding: 15px 0 0 15px;
+}
+.disco-list{
+	width: 40%;
+	display: block;
+	padding: 15px 0 0 15px;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	float: left;
+}
+.album-name{
+	float: right;
+	display: inline-block;
+	position: relative;
+	width: 20%;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	background: linear-gradient(45deg, #9D073B 33%, #2484EC 66%, #B7D2FA);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+}
+.ya-music{
+	width: auto;
+	float: right;
+	clear: right;
+	display: inline-block;
+	position: relative;
+}
+.disco-nav-main{
+	width: 100%;
+	min-height: 120px;
+}
+.disco-nav-back{
+	margin: 0;
+	width: 45%;
+	height: 120px;
+	font-size: 26px;
+	text-align: right;
+	padding: 47px 10px 47px 0;
+	float: left;
+}
+.disco-nav-forv{
+	float: left;
+	margin: 0;
+	width: 45%;
+	height: 120px;
+	font-size: 26px;
+	text-align: left;
+	padding: 47px 0 47px 10px;
+}
+.disco-disco{
+	margin: 0;
+	width: 10%;
+	height: 120px;
+	font-size: 26px;
+	text-align: center;
+	padding: 47px 0px 47px 0;
+	float: left;
+}
+.disco-nav-back a{
+	text-decoration: none;
+}
+.disco-nav-back a:hover{
+	border-bottom: 2px solid #3afa0a;
+}
+.disco-nav-forv a{
+	text-decoration: none;
+}
+.disco-nav-forv a:hover{
+	border-bottom: 2px solid #3afa0a;
+}
+.disco-disco a{
+	text-decoration: none;
+}
+.disco-disco a:hover{
+	border-bottom: 2px solid #3afa0a;
+}
+#panel{
+	width: 50%;
+	height: 200px;
+	border: 2 px solid grey;
+	background: #fff;
+	display: none;
+}
+#sostav{
+	float: left;
+	margin: 5px;
+	padding: 0px;
+	width:100%;
+	height:250px;
+	border-radius: 10px;
+}
+.sostav_ph{
+	padding: 0;
+	margin: 0;
+}
+.sostav_ph img{
+	border-radius: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+/*выпадающий контент для состава*/
+.sostav-wrap{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: auto;
+}
+.sostav-main{
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	float: left;
+	position: relative;
+	display: block;
+}
+.sostav-img{
+	padding: 0;
+	margin: 0;
+}
+.sostav-block{
+	width: 100%;
+	padding: 0;
+}
+.sostav-content{
+	margin-bottom: 10px;
+	display: none;
+	padding: 15px 20px;
+	width: 100%;
+}
+.sostav_actor{
+	text-align: left;
+	font-family: 'Arial', sans-serif;
+	font-weight: 200;
+	font-size: 18px;
+	padding:20px;/**внутренний отступ**/
+	display: inline-block;
+	width: 100%;
+}
+.sostav-content a{
+	text-decoration: none;
+}
+.sostav-content a:hover{
+	border-bottom: 1px dotted blue;
+}
+
+/*Выпадающий контент для текста песен*/
+.spoiler-wrap{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	position: relative;
+	overflow: auto;
+}
+.spoiler-main{
+	margin: 0;
+	padding: 0;
+	width: 25%;
+	float: left;
+	position: relative;
+	display: block;
+}
+.spoiler-img {
+	padding: 5px 0 10px 15px;
+	margin: 0;
+}
+.spoiler-img img{
+	margin: 0;
+	width: 75%;
+	height: 25%;
+}
+.spoiler-block{
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 0;
+}
+.spoiler-content{
+	margin-bottom: 10px;
+	display: none;
+	padding: 15px 20px;
+	width: 75%;
+}
+.spoiler-title {
+	border:1px solid #695454;
+	border-radius: 10px;
+	text-decoration:none; /*убираем подчёркивание у ссылки*/
+	width: 80%;
+	display: block;
+}
+.spoiler-span{
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	background:linear-gradient(45deg, #B61515, #2809E2, #3d3d3d);/**градиентный фон**/
+	padding:auto;/**автоотступ для центровки**/
+	color:#000; /**цвет текста ссылки**/
+	display: inline-block;
+	width: 100%;
+}
+.span-song{
+	text-align: left;
+	font-family: 'Arial', sans-serif;
+	font-weight: 200;
+	font-size: 18px;
+	padding:auto;/**внутренний отступ**/
+	display: inline-block;
+	width: 100%;
+}
+/*....*/
+/*стиль галереи*/
+.gallery-items .item{
+	display: inline-block;
+}
+.gallery-items a{
+	display: inline-block;
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.gallery-items img{
+	max-width: 100%;
+	max-height: 150px;
+}
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+/* конец галереи */
+#group{
+	float: left;
+	margin: 5px;
+	padding: 0px;
+	width:350px;
+	height:250px;
+	border-radius: 10px;
+	box-shadow: 0 0 30px 10px rgba(12,19,156,0.5)
+}
+#second_ph{
+	float: right;
+	margin: 25px 0 25px 10px;
+	padding: 0px;
+	width:300px;
+	height:200px;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 0 0 30px 10px rgba(12,19,156,0.5)
+}
